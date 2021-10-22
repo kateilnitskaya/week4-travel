@@ -1,0 +1,78 @@
+h2 {
+    color: blue;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 16pt;
+    color: #000033;
+}
+
+h2 {
+
+    font-size: 14pt;
+    color: #333333;
+}
+
+h3 {
+
+    font-size: 12pt;
+    color: #990000;
+}
+
+img {
+    width: 50vw;
+    border-radius: 25px;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    font-weight: bolder;
+}
+
+#wiki {
+    color: red;
+}
+
+#mainmenu .menu {
+    color: blueviolet;
+}
+
+#mainmenu .menu:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+p::first-letter {
+    color: red;
+}
+
+#logo {
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    /*position: absolute;
+    right: 50px;
+    top: 50px;
+    border: 1px solid black;
+    opacity: 0.5;
+    box-shadow: 0 0 10px black;*/
+}
+
+#companyname {
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Playfair Display', Times, serif;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: larger;
+    font: bold italic larger 'Arial', Times, serif;*/
+}
